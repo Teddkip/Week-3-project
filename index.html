@@ -9,39 +9,70 @@
     </head>
     <body>
         <div class="container">
-            <div class="box">
-                <header class="signup-header">
-                    <h1>Signup</h1>
-                </header>
-                <main class="signup-body">
-                    <form action="#">
-                        <p>
-                            <label for="name">Full Name</label>
-                        <input type="text" placeholder="type name here" id="name">
-                        </p>
+            <form id="form" class="form">
+                <h2>Registration Form</h2>
 
-                        <p>
-                            <label for="email">Full Name</label>
-                        <input type="email" placeholder="xyz@gmail.com" id="email">
-                        </p>
+                <div class="form-control success"> 
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter your name"/>
+                    <small>Error message will be displayed here</small> 
+                        </div>
 
-                        <p>
-                            <label for="name">Full Name</label>
-                        <input type="text" placeholder="type name here" id="name">
-                        </p>
+                        <!--email-->
 
-                        <p>
-                            <label for="Gender">Gender</label>
-                        <select id="gender">
+                        <div class="form-control error"> 
+                            <label for="email">Email</label>
+                            <input type="text" id="email" placeholder="Enter your name"/>
+                            <small>Error message will be displayed here</small> 
+                                </div>
+
+                                 <!--password-->
+                                 <div class="form-control"> 
+                                    <label for="password">Password</label>
+                                    <input type="text" id="password" placeholder="Enter your password">
+                                    <small>Error message will be displayed here</small> 
+                                        </div>
+
+                                         <!--confirm password-->
+
+                                         <div class="form-control"> 
+                                            <label for="cpassword">Confirm Password</label>
+                                            <input type="password" id="cpassword" placeholder="Enter your password again"/>
+                                            <small>Error message will be displayed here</small> 
+                                                </div>
+                                                
+
+                         <!--gender-->
+                         <div class="form-control"><label for="Gender">Gender</label>
+                            <select id="gender">
+                                
+                                <option value="male">Male</option>
+                                <option value="male">Female</option>
+                                </select>   
+                            </div>
                             
-                            <option value="male">Male</option>
-                            <option value="male">Female</option>
-                            </select>   
-                        </p>
-                        <p>
-                            <label for="date">DOB</label>
-                        <input type="date">
-                        </p>                      
+                            </p>
+                            <p>
+                                <div class="form-control"><label for="date">DOB</label>
+                                    <input type="date">
+                                </div>
+                                
+                            </p> 
+
+                            <!--Akan Name-->
+                            <div class="form-control"> 
+                                <label for="Akan">Akan</label>
+                                <input type="text" id="Akan" placeholder="Enter your name"/>
+                                <small>Error message will be displayed here</small> 
+                                    </div>
+
+
+                                <!--submit-->
+                                <button type="submit">Submit</button> 
+                                        
+                                                       
+                              </form>
+                                 
                     </form>
                 </main>
                 <footer></footer>
