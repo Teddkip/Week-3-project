@@ -12,32 +12,32 @@
             <form id="form" class="form">
                 <h2>Registration Form</h2>
 
-                <div class="form-control success"> 
+                <div class="form-control"> 
                     <label for="username">Username</label>
-                    <input type="text" id="username" placeholder="Enter your name"/>
-                    <small>Error message will be displayed here</small> 
+                    <input type="text" id="username" placeholder="Enter your name" autocomplete="off"/>
+                    <small></small> 
                         </div>
 
                         <!--email-->
 
-                        <div class="form-control error"> 
+                        <div class="form-control"> 
                             <label for="email">Email</label>
-                            <input type="text" id="email" placeholder="Enter your name"/>
-                            <small>Error message will be displayed here</small> 
+                            <input type="text" id="email" placeholder="Enter your email" autocomplete="off"/>
+                            <small></small> 
                                 </div>
 
                                  <!--password-->
                                  <div class="form-control"> 
                                     <label for="password">Password</label>
-                                    <input type="text" id="password" placeholder="Enter your password">
-                                    <small>Error message will be displayed here</small> 
+                                    <input type="text" id="password" placeholder="Enter your password" autocomplete="off">
+                                    <small></small> 
                                         </div>
 
                                          <!--confirm password-->
 
                                          <div class="form-control"> 
                                             <label for="cpassword">Confirm Password</label>
-                                            <input type="password" id="cpassword" placeholder="Enter your password again"/>
+                                            <input type="password" id="cpassword" placeholder="Enter your password again" autocomplete="off"/>
                                             <small>Error message will be displayed here</small> 
                                                 </div>
                                                 
@@ -50,11 +50,12 @@
                                 <option value="male">Female</option>
                                 </select>   
                             </div>
-                            
-                            </p>
-                            <p>
-                                <div class="form-control"><label for="date">DOB</label>
-                                    <input type="date">
+
+                                <div class="form-control">
+                                    <label for="date">Date Of Birth</label>
+                                    <input type="date" id="date" placeholder="DD/MM/YY" autocomplete="off"/>
+                                    <small>Error message will be displayed here</small> 
+                                   
                                 </div>
                                 
                             </p> 
@@ -62,7 +63,7 @@
                             <!--Akan Name-->
                             <div class="form-control"> 
                                 <label for="Akan">Akan</label>
-                                <input type="text" id="Akan" placeholder="Enter your name"/>
+                                <input type="Akan" id="Akan" placeholder="Enter your Akan"/>
                                 <small>Error message will be displayed here</small> 
                                     </div>
 
@@ -79,5 +80,6 @@
 
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>

@@ -82,6 +82,7 @@ border-color: #02a502f8;
 .form-control.error small{
     visibility: visible;
 }
+
 .form button{
     cursor: pointer;
     background-color: #ff6a07;
@@ -94,6 +95,3 @@ border-color: #02a502f8;
     font-size: 16px;
 
 } 
-input[ type="date"]{
-    left: 500%;
-}
