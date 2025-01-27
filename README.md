@@ -1,1 +1,3 @@
-# Week-3-project
+#Assinment project 2
+My name is Tedd Kibet and I am a beginer Software developer. This here is a first attempt to create a web application whereby there is a form that when you put your birthdate and Gender and sumit, it immediately outputs your Akan name from calculating your Birthday using Javascript.
+The Akan name is a popular name system in Ghana, where people adopt names based on the day of the week they were born.
